@@ -1,0 +1,18 @@
+# workflow 
+#should have Name
+Name: hello 
+on:
+workflow_dispatch  
+
+#jobs
+#should be inside to workflow 
+say-hello: 
+runs-on: ubuntu-lates 
+
+#steps
+#should have inside jobs
+-Name: say hellow to everone
+run: eco"hellow Dosto"
+
+#Actions
+#should have inside steps
